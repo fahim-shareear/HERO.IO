@@ -24,15 +24,15 @@ const GridPage = ({ app }) => {
                 {/* Download + Rating */}
                 <div className="flex items-center justify-between w-full mt-2 gap-2">
                     {/* Downloads */}
-                    <div className="flex items-center gap-1 bg-gray-200 p-1 rounded-md flex-1 justify-center">
+                    <div className="flex items-center gap-1 bg-gray-200 p-1 rounded-md sm:flex-1 justify-center">
                         <img src={Downloadicon} alt="downloadicon" className="w-4 h-4"/>
-                        <p className="text-green-500 font-bold uppercase text-[10px] sm:text-xs">{app.downloads}</p>
+                        <p className="text-green-500 font-bold uppercase sm:text-xs lg:text-[18px]">{app.downloads}</p>
                     </div>
 
                     {/* Rating */}
-                    <div className="flex items-center gap-1 bg-gray-200 p-1 rounded-md flex-1 justify-center">
+                    <div className="flex items-center gap-1 bg-gray-200 p-1 rounded-md sm:flex-1 justify-center">
                         <img src={Ratingicon} alt="ratingicon" className="w-4 h-4"/>
-                        <p className="text-green-500 font-bold uppercase text-[10px] sm:text-xs">{app.ratingAvg}</p>
+                        <p className="text-green-500 font-bold uppercase sm:text-xs lg:text-[18px]">{app.ratingAvg}</p>
                     </div>
                 </div>
             </div>

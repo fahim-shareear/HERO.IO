@@ -18,7 +18,9 @@ const router = createBrowserRouter([
         element: <Suspense fallback={<p>Loading</p>}>
           <Home></Home>
         </Suspense>},
-        {path: "apps", Component: Apps},
+        {path: "apps",
+          loader: () => fetch("/Appdata.json").then(res => res.json()),
+          Component: Apps},
         {path: "installation", Component: Installation}
     ]
   }
