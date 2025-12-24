@@ -3,6 +3,10 @@ import { Link, useLoaderData } from 'react-router';
 import GridPage from '../Gridpage/GridPage';
 import Bannerimg from "../../assets/hero.png";
 import Counter from '../counter/Counter';
+import Playbutton from "../../assets/Google_Play_2022_logo.svg";
+import Appstorelogo from "../../assets/apple-app-store.svg";
+
+
 const Home = () => {
     // const apps = useLoaderData();
     // const apps = use(useLoaderData());
@@ -17,10 +21,23 @@ const Home = () => {
                     <p className="text-gray-500 m-3 text-sm sm:text-base md:text-lg">At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br/>Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 </div>
 
-                <div className="banner-img lg:max-w-8/12 mx-auto flex items-center justify-center">
-                    <div>
-                        
+                <div className="w-full m-3">
+                    <div className="w-full flex items-center justify-center gap-2">
+                    <Link to={"https://play.google.com/store/games?hl=en"} target='_blank'>
+                        <button className='border border-gray-500 rounded w-40 h-13 p-1 shadow-xl bg-gray-300'>
+                            <img src={Playbutton} alt="gogoleplaystore" width={200}/>
+                        </button>
+                    </Link>
+                    <Link to={"https://www.apple.com/app-store/"} target='_blank'>
+                        <button className='border border-gray-500 bg-gray-300 shadow-xl rounded w-40 h-13 p-1 flex items-center gap-1'>
+                            <img src={Appstorelogo} alt="appstorebutton" width={40} height={40}/>
+                            <h3 className="text-black font-bold text-[20px]">App Store</h3>
+                        </button>
+                    </Link>
                     </div>
+                </div>
+
+                <div className="banner-img lg:max-w-8/12 mx-auto flex items-center justify-center">
                     <img src={Bannerimg} alt="bannerimg"/>
                 </div>
 {/* Counter section */}
@@ -60,7 +77,7 @@ const Home = () => {
                         <h1 className="text-black font-bold text-4xl m-3">Trending Apps</h1>
                         <p className="text-gray-400 font-semibold text-xl m-1">Explore all the trending apps on the marketplace developed by us</p>
                     </div>
-                    <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6 lg:gap-8 m-1">
+                    <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 m-1">
                             {
                                 apps.slice(0, 8).map(app => <GridPage key={app.id} app={app}></GridPage>)
                             }
