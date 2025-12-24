@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import GridPage from '../Gridpage/GridPage';
 import Bannerimg from "../../assets/hero.png";
@@ -75,13 +75,15 @@ const Home = () => {
                 <div>
                     <div className="text-center mx-auto mt-3">
                         <h1 className="text-black font-bold text-4xl m-3">Trending Apps</h1>
-                        <p className="text-gray-400 font-semibold text-xl m-1">Explore all the trending apps on the marketplace developed by us</p>
+                        <p className="text-gray-400 font-semibold text-md lg:text-xl m-1">Explore all the trending apps on the marketplace developed by us</p>
                     </div>
-                    <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 m-1">
+                    <Suspense fallback={<span className="loading loading-spinner text-error"></span>}>
+                        <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 m-1 mt-8">
                             {
                                 apps.slice(0, 8).map(app => <GridPage key={app.id} app={app}></GridPage>)
                             }
-                    </div>
+                        </div>
+                    </Suspense>
 
                     <div className="flex items-center justify-center">
                         <Link to={"/apps"}>
