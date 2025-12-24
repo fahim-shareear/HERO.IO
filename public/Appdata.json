@@ -1,0 +1,254 @@
+[
+  {
+    "image": "https://picsum.photos/200?1",
+    "title": "Photo Editor Pro",
+    "companyName": "PixelSoft",
+    "id": 1,
+    "description": "Photo Editor Pro is a comprehensive and professional photo editing application designed for both beginners and advanced users. It offers a wide range of powerful features, including AI-based enhancement tools that automatically improve photo quality, advanced filters for creative effects, and precise color correction options to make every image stand out. The app allows background removal for product photography, social media content, and creative projects, while providing layer-based editing for greater control over composition. Users can apply various artistic effects, adjust brightness, contrast, saturation, and sharpness with ease, and work with multiple file formats without losing quality. It also includes intuitive cropping, resizing, and rotation tools to ensure images are perfectly framed for any purpose. Photo Editor Pro offers seamless integration with popular cloud services, enabling effortless storage and sharing. Its user-friendly interface is designed to minimize the learning curve while still offering advanced features for experienced editors. Tutorials, tips, and community support allow users to explore creative possibilities, develop skills, and produce professional-quality images. Whether enhancing portraits, creating marketing materials, or experimenting with digital art, Photo Editor Pro equips users with the tools needed to bring their vision to life in a highly flexible and accessible environment.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": "9m",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?2",
+    "title": "Music Player X",
+    "companyName": "SoundWave",
+    "id": 2,
+    "description": "Music Player X is a modern music application designed for high-quality audio playback, both online and offline. It features a built-in equalizer with presets and manual adjustments, allowing users to fine-tune sound to their personal preferences. Users can manage playlists, shuffle and repeat tracks, and easily organize their music library. The app also supports multiple audio formats, ensuring compatibility with a wide range of files. Background play allows uninterrupted listening while using other apps, and smart recommendations suggest new tracks based on listening habits. Music Player X includes sleep timers, album artwork display, lyrics integration, and gesture controls for a smooth experience. Its intuitive interface ensures easy navigation, whether browsing by artist, album, or genre. For audiophiles, the app provides advanced audio settings like bass boost, virtual surround sound, and stereo widening. Integration with social media platforms allows sharing favorite tracks, playlists, and discovering trending music. The app is lightweight, responsive, and optimized to run smoothly on various devices. Whether for casual listeners or music enthusiasts, Music Player X offers a complete and personalized listening experience, making it easy to enjoy, explore, and share music anytime.",
+    "size": 32,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": "5m",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?3",
+    "title": "Fitness Tracker",
+    "companyName": "Healthify",
+    "id": 3,
+    "description": "Fitness Tracker is a comprehensive health and wellness app designed to help users monitor and improve their physical activity and overall fitness. It tracks daily steps, calories burned, distance traveled, active minutes, and heart rate, providing clear insights into personal health goals. The app includes guided workouts for beginners and advanced users, customizable exercise routines, and progress tracking features. Users can monitor sleep patterns, hydration levels, and weight trends to maintain balanced health habits. Fitness Tracker integrates with wearable devices and smartwatches to provide accurate, real-time data. Personalized reminders motivate users to stay active and maintain consistency. The app also offers social features, allowing users to join challenges, share achievements, and compete with friends. Nutrition tracking is included to monitor calorie intake, macronutrients, and dietary habits. Detailed graphs and charts visualize progress over time, helping users make informed lifestyle decisions. Fitness Tracker emphasizes long-term wellness by offering tips, educational content, and health insights. Whether training for a marathon, improving daily activity, or maintaining a balanced lifestyle, Fitness Tracker provides a complete toolkit to guide users on their fitness journey, encouraging consistency, motivation, and healthy living habits.",
+    "size": 28,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": "12m",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?4",
+    "title": "Note Keeper",
+    "companyName": "WriteWell",
+    "id": 4,
+    "description": "Note Keeper is a versatile note-taking application designed to help users capture, organize, and manage their ideas, tasks, and important information efficiently. It provides rich text formatting, tagging, and categorization options to keep notes structured and easy to navigate. Users can create to-do lists, checklists, and reminders to manage daily tasks and deadlines effectively. The app supports multimedia attachments, allowing images, voice notes, and documents to be added to notes for enhanced context. Cloud synchronization ensures that notes are accessible across multiple devices, while offline mode guarantees productivity even without internet connectivity. Note Keeper offers advanced search functionality, enabling users to find notes quickly using keywords, tags, or filters. Security features like password protection and encryption ensure that sensitive information remains private. The intuitive interface is designed to minimize friction and maximize efficiency, providing a smooth and user-friendly experience. Note Keeper is suitable for students, professionals, and anyone who needs to manage personal or work-related information. With templates, reminders, and collaboration features, it becomes a reliable tool for organizing ideas, planning projects, and keeping track of important details in a structured and secure manner.",
+    "size": 15,
+    "reviews": 650,
+    "ratingAvg": 4.0,
+    "downloads": "2m",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?5",
+    "title": "Weather Now",
+    "companyName": "SkyLabs",
+    "id": 5,
+    "description": "Weather Now is a reliable weather forecasting application providing accurate, real-time information about current conditions, hourly and daily forecasts, and severe weather alerts. Users can view temperature, humidity, wind speed, precipitation, and UV index for their location and other selected cities. The app offers interactive weather maps, radar imagery, and satellite visuals to track storms and monitor climate patterns effectively. Weather Now includes customizable notifications for rain, snow, or extreme conditions, helping users plan their day safely. It supports multiple languages and units, catering to a global audience. The interface is intuitive, with clear visuals and graphs for easy understanding of weather trends. Users can save favorite locations, access historical weather data, and get seasonal insights to prepare for long-term planning. Integration with widgets allows quick access to forecasts directly from the home screen. Weather Now emphasizes accessibility, precision, and user engagement, making it a comprehensive tool for individuals, travelers, and outdoor enthusiasts who rely on accurate weather information to make informed decisions and stay prepared for changing conditions.",
+    "size": 18,
+    "reviews": 1320,
+    "ratingAvg": 4.3,
+    "downloads": "6m",
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?6",
+    "title": "Language Learner",
+    "companyName": "EduSpark",
+    "id": 6,
+    "description": "Language Learner is an interactive application designed to help users learn new languages effectively and engagingly. The app offers daily lessons, pronunciation practice, vocabulary building exercises, and grammar tutorials for multiple languages. Users can practice speaking, listening, reading, and writing skills through interactive exercises, quizzes, and flashcards. The app includes AI-powered speech recognition to provide real-time feedback on pronunciation and fluency. Gamification elements, such as streaks, points, and challenges, keep learners motivated and engaged. Progress tracking allows users to monitor their improvement over time and identify areas that need more attention. The app also provides cultural context, idiomatic expressions, and practical phrases for real-world usage. Offline mode ensures learning can continue without internet connectivity, while cloud syncing saves progress across devices. Language Learner is suitable for beginners, intermediate, and advanced learners, offering personalized lesson plans based on skill level and learning goals. With a combination of technology, engaging content, and structured learning paths, it helps users acquire language skills efficiently and confidently, whether for travel, career advancement, or personal enrichment.",
+    "size": 52,
+    "reviews": 1780,
+    "ratingAvg": 4.6,
+    "downloads": "10m",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 960 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?7",
+    "title": "Task Manager",
+    "companyName": "Productive Inc",
+    "id": 7,
+    "description": "Task Manager is a productivity-focused application designed to help users organize daily tasks, set priorities, track deadlines, and manage projects efficiently. It offers features such as to-do lists, reminders, subtasks, and recurring tasks to ensure nothing is missed. The app includes visual calendars, kanban boards, and progress tracking to give users a clear overview of their workload. Users can categorize tasks with labels, tags, and priorities to manage work systematically. Collaboration tools allow team members to share tasks, assign responsibilities, and communicate within the app, streamlining teamwork. Notifications and smart alerts help users stay on top of deadlines and important milestones. The app supports offline mode and cloud synchronization, enabling seamless task management across multiple devices. Analytics and reporting features provide insights into productivity trends and areas for improvement. Task Manager integrates with other tools such as calendars, email, and cloud storage to simplify workflow. With a user-friendly interface, customizable layouts, and efficiency-focused design, Task Manager is ideal for professionals, students, and anyone looking to improve personal or team productivity by managing tasks effectively and achieving goals consistently.",
+    "size": 22,
+    "reviews": 860,
+    "ratingAvg": 4.1,
+    "downloads": "3m",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+   {
+    "image": "https://picsum.photos/200?8",
+    "title": "Budget Planner",
+    "companyName": "MoneyMind",
+    "id": 8,
+    "description": "Budget Planner is a smart financial management application designed to help users track expenses, plan monthly budgets, and achieve financial goals efficiently. The app allows users to categorize spending, monitor income and expenses, and visualize cash flow with detailed charts and graphs. It supports multiple accounts, recurring transactions, and bill reminders to prevent late payments. Budget Planner includes savings tracking, goal setting, and alerts to keep users on track for short-term and long-term objectives. Users can generate financial reports to analyze spending habits and make informed decisions. The app also offers integration with bank accounts for automatic transaction import, ensuring accuracy and reducing manual entry. Customizable categories and budget templates allow users to tailor the app to their personal financial situation. Budget Planner emphasizes ease of use with an intuitive interface and clear visual cues, making it suitable for both beginners and experienced budgeters. The app empowers users to manage their finances proactively, avoid overspending, and build better money habits. Whether planning for daily expenses, monthly bills, or long-term savings, Budget Planner offers comprehensive tools to maintain financial stability and growth while providing insights to improve money management skills.",
+    "size": 35,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": "4m",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?9",
+    "title": "Video Editor Lite",
+    "companyName": "ClipForge",
+    "id": 9,
+    "description": "Video Editor Lite is an easy-to-use yet powerful video editing application that allows users to create, edit, and enhance videos for personal or professional purposes. It includes features such as trimming, cutting, merging clips, adding transitions, text overlays, and applying filters or visual effects. Users can adjust brightness, contrast, saturation, and speed to achieve the desired look for their videos. The app supports multiple video formats and resolutions, ensuring compatibility with social media platforms and devices. Video Editor Lite also offers audio editing capabilities, including background music addition, volume control, and voiceovers. With a simple drag-and-drop interface, users can quickly arrange clips and create engaging content without needing prior experience. The app includes templates and preset effects for faster editing and inspiration. It supports exporting videos in various formats and resolutions while maintaining quality. Video Editor Lite is optimized for performance, ensuring smooth editing even on mobile devices. Ideal for vloggers, students, content creators, and casual users, this app combines accessibility and advanced features, allowing anyone to produce professional-looking videos efficiently and creatively, whether for social media, presentations, or personal projects.",
+    "size": 120,
+    "reviews": 2450,
+    "ratingAvg": 4.8,
+    "downloads": "15m",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?10",
+    "title": "Secure VPN",
+    "companyName": "NetShield",
+    "id": 10,
+    "description": "Secure VPN is a fast and reliable virtual private network application designed to protect user privacy, encrypt internet traffic, and provide secure browsing on public networks. The app hides IP addresses, allowing users to access geo-restricted content and maintain anonymity online. Secure VPN includes multiple server locations worldwide to optimize connection speed and reliability. Users can enable automatic connection on untrusted networks, ensuring continuous protection against cyber threats. The app provides a no-log policy, ensuring that user activity is never recorded. It supports high-speed streaming, downloads, and gaming without interruptions. Secure VPN also includes advanced features such as split tunneling, kill switch, and DNS leak protection for comprehensive security. Its intuitive interface allows users to connect with a single tap and monitor connection status easily. The app is lightweight, optimized for mobile devices, and consumes minimal battery while maintaining robust encryption standards. Ideal for individuals, travelers, and professionals concerned about online privacy, Secure VPN ensures secure internet access, prevents data theft, and maintains confidentiality while browsing, streaming, or working online from any location.",
+    "size": 60,
+    "reviews": 1980,
+    "ratingAvg": 4.6,
+    "downloads": "8m",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1030 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?11",
+    "title": "PDF Scanner",
+    "companyName": "DocuTech",
+    "id": 11,
+    "description": "PDF Scanner is an efficient and powerful document scanning application that enables users to digitize physical documents quickly and accurately. It allows scanning of papers, receipts, invoices, business cards, and other documents using the device camera. The app automatically detects edges, enhances image clarity, and converts scans into high-quality PDFs or images. PDF Scanner also includes Optical Character Recognition (OCR) to extract text from images, making it editable and searchable. Users can organize scanned documents into folders, rename files, and share them through email or cloud services. It supports batch scanning, allowing multiple pages to be combined into a single PDF. Security features, including password protection and encryption, ensure sensitive information remains safe. The app provides annotation tools to highlight, add notes, and draw on scanned documents. With a user-friendly interface, fast processing, and advanced features, PDF Scanner is ideal for students, professionals, and business users who need to manage, store, and share documents digitally, streamlining workflows, improving organization, and enhancing productivity.",
+    "size": 25,
+    "reviews": 740,
+    "ratingAvg": 4.2,
+    "downloads": "3m",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 240 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?12",
+    "title": "Meditation Plus",
+    "companyName": "MindCare",
+    "id": 12,
+    "description": "Meditation Plus is a calming and mindfulness-focused application designed to help users reduce stress, improve focus, and enhance mental well-being. It offers guided meditation sessions, breathing exercises, and relaxation programs suitable for beginners and experienced practitioners. Users can choose from various meditation techniques, including mindfulness, body scan, visualization, and sleep meditation. The app includes ambient sounds, nature music, and customizable timers to create a serene and distraction-free environment. Meditation Plus tracks progress, daily streaks, and session history to encourage consistent practice. It also provides educational content about meditation benefits, stress management, and mental health tips. Notifications and reminders help users maintain a regular meditation routine. Offline mode ensures access to guided sessions without internet connectivity. The app is designed with an intuitive interface, smooth animations, and gentle cues to enhance the user experience. Suitable for individuals seeking relaxation, stress relief, or personal growth, Meditation Plus supports mental clarity, emotional balance, and overall well-being through structured and immersive mindfulness practices.",
+    "size": 40,
+    "reviews": 1650,
+    "ratingAvg": 4.7,
+    "downloads": "7m",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 870 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?13",
+    "title": "Expense Tracker",
+    "companyName": "FinTrack",
+    "id": 13,
+    "description": "Expense Tracker is a user-friendly financial management app that helps individuals monitor daily spending, track income, and manage budgets efficiently. Users can categorize expenses, set limits, and visualize spending habits with clear graphs and charts. The app supports multiple accounts, recurring transactions, and bill reminders to maintain financial discipline. It provides insights on saving opportunities and alerts to prevent overspending. Expense Tracker allows users to generate detailed reports, analyze trends, and make informed decisions to improve money management skills. Integration with bank accounts and payment apps allows automatic transaction tracking, saving time and improving accuracy. Security features ensure that sensitive financial data is protected. The intuitive interface makes the app suitable for beginners and experienced users alike. Ideal for students, professionals, and families, Expense Tracker promotes financial awareness, accountability, and better control over personal finances, supporting users in achieving short-term and long-term monetary goals.",
+    "size": 30,
+    "reviews": 920,
+    "ratingAvg": 4.3,
+    "downloads": "4m",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?14",
+    "title": "QR Scanner",
+    "companyName": "QuickScan",
+    "id": 14,
+    "description": "QR Scanner is a fast, secure, and lightweight application designed to read QR codes and barcodes instantly using the device camera. The app can scan URLs, contact details, product information, Wi-Fi credentials, and more. It supports generating custom QR codes for sharing personal or business data easily. QR Scanner ensures high-speed scanning, even in low-light conditions, and provides clear visual feedback upon successful scans. Users can save scan history, favorite codes, and export results for reference or sharing. The app includes security features to warn users about potentially malicious links. QR Scanner integrates with other applications to enable quick access to scanned content, such as opening websites, saving contacts, or connecting to networks. The interface is intuitive and designed for efficiency, making it easy for users of all ages and technical backgrounds to scan, manage, and create QR codes effortlessly. Ideal for personal, educational, and business use, QR Scanner provides a reliable and convenient tool for digital interactions, marketing, and data management.",
+    "size": 12,
+    "reviews": 580,
+    "ratingAvg": 4.1,
+    "downloads": "2m",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 160 }
+    ]
+  }
+]
