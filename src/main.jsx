@@ -8,6 +8,7 @@ import Home from './components/Mainpages/HomePage';
 // import About from "./components/Mainpages/Apps";
 import Installation from "./components/Mainpages/Installation";
 import Apps from './components/Mainpages/Apps';
+import Appdetails from './components/Appdetails/Appdetails';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,11 @@ const router = createBrowserRouter([
         {path: "apps",
           loader: () => fetch("/Appdata.json").then(res => res.json()),
           Component: Apps},
-        {path: "installation", Component: Installation}
+        {path: "installation", Component: Installation},
+        {
+          path: "app/:id",
+          Component: Appdetails
+        }
     ]
   }
 ])
