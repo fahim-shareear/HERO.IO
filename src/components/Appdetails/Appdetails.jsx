@@ -15,24 +15,19 @@ const Appdetails = () => {
         getInstalledApps().some(item => item.id === app.id)
     );
 
-    const addtoLS = (app) => {
+    const addtoLS = () =>{
         const installedApps = getInstalledApps();
-        // const installed = installedApps.find(item => item.id === app.id);
+        const installed = installedApps.find(item => item.id === app.id);
 
-        // if(installed){
-        //     toast("Your app has already been Installed")
-        // };
+        if(installed){
+            return
+        }
 
-        installedApps.push(app);
-
-        localStorage.setItem(
-            "installedApps",
-            JSON.stringify(installedApps)
-        );
-
-        toast("App has been installed successfully");
+        const updatedApp = [...installedApps, app];
+        localStorage.setItem("installedApps", JSON.stringify(updatedApp));
+        toast("Your app has been Installed");
         setIsInstalled(true);
-    };
+    }
 
     const handleInstalledApp = () =>{
         addtoLS(app)
