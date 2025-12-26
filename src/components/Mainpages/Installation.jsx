@@ -1,24 +1,38 @@
 import React, { useEffect, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-import { getInstalledApps } from '../Utilities/utilities';
+import { getInstalledApps, saveInstalledApps } from '../Utilities/utilities';
 import { toast } from 'react-toastify';
-import { saveInstalledApps } from '../Utilities/utilities';
 
 const Installation = () => {
     const [installedApps, setInstalledApps] = useState([]);
+    const [sortOrder, setSortOrder] = useState('desc'); // 'desc' = largest to smallest, 'asc' = smallest to largest
 
     useEffect(() => {
+        const apps = getInstalledApps();
         // eslint-disable-next-line react-hooks/set-state-in-effect
-        setInstalledApps(()=> getInstalledApps());
+        setInstalledApps(apps);
     }, []);
-    // console.log(installedApps);
 
-    const handleUninstall = (id) =>{
-        const update = installedApps.filter(app => app.id !== id);
-        setInstalledApps(update);
-        saveInstalledApps(update);
-        toast("Your app has been uninstalled");
-    }
+    const handleUninstall = (id) => {
+        const updated = installedApps.filter(app => app.id !== id);
+        setInstalledApps(updated);
+        saveInstalledApps(updated);
+        toast.success("Your app has been uninstalled");
+    };
+
+    const handleSortBySize = () => {
+        const newOrder = sortOrder === 'desc' ? 'asc' : 'desc';
+        setSortOrder(newOrder);
+
+        const sortedApps = [...installedApps].sort((a, b) => {
+            const sizeA = parseFloat(a.size);
+            const sizeB = parseFloat(b.size);
+
+            return newOrder === 'desc' ? sizeB - sizeA : sizeA - sizeB;
+        });
+
+        setInstalledApps(sortedApps);
+    };
 
     return (
         <div className="bg-gray-100 min-h-screen py-6">
@@ -36,8 +50,12 @@ const Installation = () => {
                         {installedApps.length} Apps Found
                     </h2>
 
-                    <button className="flex items-center gap-1 border border-gray-400 bg-gray-200 text-black px-3 py-1.5 rounded text-sm">
-                        Sort by size <ChevronDown size={14} />
+                    <button
+                        onClick={handleSortBySize}
+                        className="flex items-center gap-1 border border-gray-400 bg-gray-200 text-black px-3 py-1.5 rounded text-sm hover:bg-gray-300 transition"
+                    >
+                        Sort by size {sortOrder === 'desc' ? '↓' : '↑'}
+                        <ChevronDown size={14} className="ml-1" />
                     </button>
                 </div>
 
@@ -47,15 +65,22 @@ const Installation = () => {
                 ) : (
                     <div className="space-y-2">
                         {installedApps.map(app => (
-                            <div key={app.id} className="flex items-center justify-between bg-gray-200 px-3 py-2 rounded">
+                            <div
+                                key={app.id}
+                                className="flex items-center justify-between bg-gray-200 px-3 py-2 rounded"
+                            >
                                 <div className="flex items-center gap-3">
-                                    <img src={app.image} alt={app.title} className="w-12 h-12 object-contain" />
+                                    <img
+                                        src={app.image}
+                                        alt={app.title}
+                                        className="w-12 h-12 object-contain rounded"
+                                    />
 
                                     <div>
                                         <h3 className="font-semibold text-black text-sm leading-tight">
                                             {app.title}
                                         </h3>
-                                        <div className="text-xs text-black flex gap-2">
+                                        <div className="text-xs text-black flex gap-2 mt-1">
                                             <span className="text-green-600 font-medium">⬇ {app.downloads}</span>
                                             <span>⭐ {app.ratingAvg}</span>
                                             <span>{app.size} MB</span>
@@ -63,7 +88,10 @@ const Installation = () => {
                                     </div>
                                 </div>
 
-                                <button className="bg-[#0abb83] text-white font-semibold px-3 py-1.5 rounded text-xs cursor-pointer" onClick={() => handleUninstall(app.id)}>
+                                <button
+                                    onClick={() => handleUninstall(app.id)}
+                                    className="bg-[#0abb83] hover:bg-[#09a56f] text-white font-semibold px-3 py-1.5 rounded text-xs transition"
+                                >
                                     Uninstall
                                 </button>
                             </div>
