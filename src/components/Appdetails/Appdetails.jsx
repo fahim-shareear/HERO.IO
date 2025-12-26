@@ -1,14 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import Downloadlogo from "../../assets/icon-downloads.png";
 import Ratingimg from "../../assets/icon-ratings.png";
 import Reviewicon from "../../assets/icon-review.png";
+import { getInstalledApps } from '../Utilities/utilities';
+import { toast } from 'react-toastify';
 
 const Appdetails = () => {
     const {id} = useParams();
     const apps = useLoaderData();
     const app  = apps.find(a => a.id === Number(id));
-    console.log(app);
+    // console.log(app);
+    const [isInstalled, setIsInstalled] = useState(
+        getInstalledApps().some(item => item.id === app.id)
+    );
+
+    const addtoLS = (app) => {
+        const installedApps = getInstalledApps();
+        // const installed = installedApps.find(item => item.id === app.id);
+
+        // if(installed){
+        //     toast("Your app has already been Installed")
+        // };
+
+        installedApps.push(app);
+
+        localStorage.setItem(
+            "installedApps",
+            JSON.stringify(installedApps)
+        );
+
+        toast("App has been installed successfully");
+        setIsInstalled(true);
+    };
+
+    const handleInstalledApp = () =>{
+        addtoLS(app)
+    }
+
     return (
         <div className="bg-gray-200 p-4 sm:p-6 md:p-8 lg:p-10">
 
@@ -96,8 +125,10 @@ const Appdetails = () => {
 
                         <button
                             className="bg-[#0abb83] p-3 rounded-md font-bold mt-2 cursor-pointer"
+                            onClick={()=> handleInstalledApp()}
+                            disabled={isInstalled}
                         >
-                            Install Now ({app.size} MB)
+                            {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
                         </button>
 
                     </div>
