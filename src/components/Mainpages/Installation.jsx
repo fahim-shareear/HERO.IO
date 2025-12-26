@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { getInstalledApps } from '../Utilities/utilities';
+// import { toast } from 'react-toastify';
 
 const Installation = () => {
     const [installedApps, setInstalledApps] = useState([]);
@@ -9,6 +10,13 @@ const Installation = () => {
         // eslint-disable-next-line react-hooks/set-state-in-effect
         setInstalledApps(getInstalledApps());
     }, []);
+
+    // const handleUninstall = (id) =>{
+    //     const update = installedApps.find(app => app.id !== id);
+    //     setInstalledApps(update);
+    //     saveInstalledApps(update);
+    //     toast("Your app has been uninstalled");
+    // }
 
     return (
         <div className="bg-gray-100 min-h-screen py-6">
@@ -53,7 +61,7 @@ const Installation = () => {
                                     </div>
                                 </div>
 
-                                <button className="bg-[#0abb83] text-white font-semibold px-3 py-1.5 rounded text-xs">
+                                <button className="bg-[#0abb83] text-white font-semibold px-3 py-1.5 rounded text-xs cursor-pointer">
                                     Uninstall
                                 </button>
                             </div>

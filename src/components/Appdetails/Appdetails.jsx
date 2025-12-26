@@ -12,12 +12,12 @@ const Appdetails = () => {
     const app  = apps.find(a => a.id === Number(id));
     // console.log(app);
     const [isInstalled, setIsInstalled] = useState(
-        getInstalledApps().some(item => item.id === app.id)
+        app ? getInstalledApps().some(item => item.id === app.id) : false
     );
 
     const addtoLS = () =>{
         const installedApps = getInstalledApps();
-        const installed = installedApps.find(item => item.id === app.id);
+        const installed = installedApps.some(item => item.id === app.id);
 
         if(installed){
             return
